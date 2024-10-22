@@ -1,21 +1,26 @@
-import Image from "next/image";
-
 import style from "@/styles/header.module.css";
 import Link from "next/link";
 
 const Header: React.FC = () => {
   return (
-    <div className={style["Header"]}>
-      <Image
-        className={style["Logo"]}
-        src="/scott.png"
-        alt="logo"
-        width={50}
-        height={50}
-      />
-      <Link href="/">Home</Link>
-      <Link href="/about">About</Link>
-    </div>
+    <header className={style["Header"]}>
+      <div className={style["name"]}>
+        <p>- Scott -</p>
+        <p>Greenhalgh</p>
+      </div>
+      <Link className={style["link"]} href="/">
+        Home
+      </Link>
+      <Link className={style["link"]} href="/about">
+        About
+      </Link>
+      <a
+        className={style["link"]}
+        href="https://www.linkedin.com/in/scott-greenhalgh-288575212/"
+      >
+        LinkedIn
+      </a>
+    </header>
   );
 };
 

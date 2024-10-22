@@ -1,5 +1,12 @@
 import type { Metadata } from "next";
-import { Noto_Serif, Roboto, Lato, Play } from "next/font/google";
+import {
+  Noto_Serif,
+  Roboto,
+  Lato,
+  Play,
+  Rubik_Mono_One,
+  Gasoek_One,
+} from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -32,6 +39,20 @@ const play = Play({
   variable: "--font-play",
 });
 
+const Rubik = Rubik_Mono_One({
+  subsets: ["latin"],
+  style: "normal",
+  weight: "400",
+  variable: "--font-rubik",
+});
+
+const Gasoek = Gasoek_One({
+  subsets: ["latin"],
+  style: "normal",
+  weight: "400",
+  variable: "--font-gasoek",
+});
+
 export const metadata: Metadata = {
   title: "Scott Greenhalgh",
   description:
@@ -46,7 +67,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${noto.variable} ${roboto.variable} ${lato.variable} ${play.variable} antialiased`}
+        className={`${noto.variable} ${roboto.variable} ${lato.variable} ${play.variable} ${Rubik.variable} ${Gasoek.variable} antialiased`}
       >
         <Header />
         {children}

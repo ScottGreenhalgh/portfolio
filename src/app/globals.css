@@ -30,12 +30,9 @@ body {
   color: rgba(255, 255, 255, 0.87);
   background: linear-gradient(
     153deg,
-    /* Dark Charcoal */ rgba(29, 29, 29, 0.996),
-    /* Steel Blue */ rgba(70, 130, 180, 0.9),
-    /* Light Slate Gray */ rgba(119, 136, 153, 0.9),
-    /* Lavender Blue */ rgba(198, 198, 216, 0.9),
-    /* Light Steel Blue */ rgba(176, 196, 222, 0.9),
-    /* Dark Charcoal */ rgba(29, 29, 29, 0.996)
+    /* Indigo */ rgba(75, 0, 130, 0.9),
+    /* Medium Slate Blue */ rgba(123, 104, 238, 0.9),
+    /* Light Steel Blue */ rgba(176, 196, 222, 0.9)
   );
   background-size: cover;
   background-position: center;

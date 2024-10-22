@@ -3,16 +3,17 @@
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-evenly;
+  align-items: center;
 
-  background-color: var(--light-color);
+  background: var(--light-color) url("/pattern_triangle_15.png") repeat;
   width: 100svw;
 
   position: absolute;
   top: 0;
   left: 0;
 
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  /* padding-top: 1rem;
+  padding-bottom: 1rem; */
 
   font-family: var(--font-play);
 }
@@ -26,4 +27,69 @@
 .Logo {
   padding: 0;
   margin: 0;
+}
+
+/* seperator */
+
+.SeparatorRoot {
+  background-color: var(--violet-6);
+}
+.SeparatorRoot[data-orientation="horizontal"] {
+  height: 1px;
+  width: 100%;
+}
+.SeparatorRoot[data-orientation="vertical"] {
+  height: 100%;
+  width: 1px;
+}
+
+.Text {
+  color: white;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+/* switch */
+
+.SwitchRoot {
+  width: 42px;
+  height: 25px;
+  background-color: var(--black-a9);
+  border-radius: 9999px;
+  position: relative;
+  box-shadow: 0 2px 10px var(--black-a7);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  &:focus {
+    box-shadow: 0 0 0 2px black;
+  }
+  &[data-state="checked"] {
+    background-color: black;
+  }
+}
+
+.SwitchThumb {
+  display: block;
+  width: 21px;
+  height: 21px;
+  background-color: white;
+  border-radius: 9999px;
+  box-shadow: 0 2px 2px var(--black-a7);
+  transition: transform 100ms;
+  transform: translateX(2px);
+  will-change: transform;
+  &[data-state="checked"] {
+    transform: translateX(19px);
+  }
+}
+
+.Label {
+  color: white;
+  font-size: 15px;
+  line-height: 1;
+  user-select: none;
+}
+
+.name {
+  font-family: var(--font-rubik);
+  text-transform: uppercase;
 }

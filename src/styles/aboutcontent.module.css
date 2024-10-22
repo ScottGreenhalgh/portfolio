@@ -1,0 +1,44 @@
+.SeparatorRoot {
+  background-color: var(--darker-color);
+}
+.SeparatorRoot[data-orientation="horizontal"] {
+  height: 1px;
+  width: 100%;
+}
+.SeparatorRoot[data-orientation="vertical"] {
+  height: 100%;
+  width: 1px;
+}
+
+.skills-container {
+  padding: 10px;
+}
+
+.projects-container {
+  padding: 1rem;
+}
+
+.title-text {
+  display: flex;
+  align-items: center;
+}
+
+.TextContainer {
+  display: flex;
+  height: 20px;
+  align-items: "center";
+  justify-content: space-evenly;
+}
+
+.Text {
+  color: white;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 5px;
+  padding-top: 0.5rem;
+}
