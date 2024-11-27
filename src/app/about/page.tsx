@@ -10,7 +10,8 @@ export default function AboutPage() {
           passion for all things tech.
         </p>
         <p>
-          I graduated from the University of York in Electronic Engineering.
+          I graduated from the University of York in Electronic Engineering and
+          studied Web Development under Tech Educators.
         </p>
       </div>
       <AboutContent />

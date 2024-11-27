@@ -79,20 +79,34 @@ const AboutContent: React.FC = async () => {
         </div>
         {/* Logos here */}
         <div className={style["logo-container"]}>
-          <Image src="/react.png" alt="react logo" height={40} width={40} />
+          <Image
+            src="/react.png"
+            alt="react logo"
+            height={40}
+            width={40}
+            style={{ width: "40px", height: "40px", objectFit: "contain" }}
+          />
           <Image
             src="/nextjs-icon.webp"
             alt="next logo"
             height={40}
             width={40}
+            style={{ width: "40px", height: "40px", objectFit: "contain" }}
           />
           <Image
             src="/nodejs-icon.png"
             alt="node logo"
             height={40}
             width={40}
+            style={{ width: "40px", height: "40px", objectFit: "contain" }}
           />
-          <Image src="/npm.jpeg" alt="ts logo" height={40} width={40} />
+          <Image
+            src="/npm.jpeg"
+            alt="ts logo"
+            height={40}
+            width={40}
+            style={{ width: "40px", height: "40px", objectFit: "contain" }}
+          />
         </div>
         <br /> {/* Break */}
         <h3 className="font-bold">Basic knowledge of programming languages</h3>
@@ -125,10 +139,23 @@ const AboutContent: React.FC = async () => {
             height={40}
             width={40}
           />
-          <Image src="/c-logo.png" alt="c logo" height={40} width={40} />
-          <Image src="/java-logo.png" alt="java logo" height={40} width={40} />
+          <Image
+            src="/c-logo.png"
+            alt="c logo"
+            height={40}
+            width={40}
+            style={{ width: "40px", height: "40px", objectFit: "contain" }}
+          />
+          <Image
+            src="/java-logo.png"
+            alt="java logo"
+            height={40}
+            width={40}
+            style={{ width: "40px", height: "40px", objectFit: "contain" }}
+          />
         </div>
       </div>
+      {/* Project related */}
       <div className={style["projects-container"]}>
         <h2 className={`text-2xl text-amber-500 ${style["title-text"]}`}>
           <FaFolder />
