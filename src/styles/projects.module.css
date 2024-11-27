@@ -3,9 +3,9 @@
   grid-template-columns: repeat(
     auto-fill,
     minmax(300px, 1fr)
-  ); /* Adjust 300px as needed */
+  ); /* Adjust 300px in future */
   gap: 20px;
-  max-height: 80vh; /* Adjust as needed */
+  max-height: 80vh; /* Adjust in future */
   overflow-y: auto;
   padding: 10px;
   box-sizing: border-box;
@@ -18,6 +18,10 @@
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-item:hover {
+  transform: scale(1.05); /* Adjust in future */
 }
 
 .project-info {
@@ -34,7 +38,7 @@
 .project-image-container {
   position: relative;
   width: 100%;
-  height: 200px; /* Adjust this value as needed */
+  height: 200px; /* Adjust in future */
 }
 
 .project-image {

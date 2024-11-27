@@ -1,0 +1,8 @@
+.home-container {
+  background: var(--light-color);
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+
+  padding: 0.5rem 0 0.5rem 0.5rem;
+}

@@ -38,7 +38,8 @@
 
 .logo-container {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
   gap: 1rem;
   padding-top: 0.5rem;
 }

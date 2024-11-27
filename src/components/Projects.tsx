@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { projectsData } from "@/utils/projectData";
 import style from "@/styles/projects.module.css";
+import { AiFillGithub } from "react-icons/ai";
 
 const Projects: React.FC = async () => {
   return (
@@ -15,7 +16,7 @@ const Projects: React.FC = async () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Github
+              <AiFillGithub />
             </a>
           </div>
           <a
