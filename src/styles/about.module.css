@@ -1,15 +1,3 @@
-.info-pannel {
-  width: 100%;
-  height: auto;
-  background: var(--darker-color) url("/pattern_triangle_15.png") repeat;
-  -moz-border-radius: 6px;
-  -webkit-border-radius: 6px;
-  border-radius: 6px;
-  overflow: hidden;
-  /* border: 1px solid none; */
-  box-sizing: border-box;
-}
-
 .dynamicImage {
   width: 50vw;
   max-width: 100%;
@@ -21,4 +9,12 @@
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
   border-radius: 6px;
+  max-height: 80%;
+  overflow-y: auto;
+}
+
+@media (max-width: 767px) {
+  .about-container {
+    width: 375px;
+  }
 }

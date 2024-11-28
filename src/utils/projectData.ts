@@ -12,7 +12,7 @@ export const projectsData = [
     id: 2,
     title: "Image Gallery",
     description:
-      "This project features a responsive image gallery that showcases a collection of images. Built with HTML, CSS, and JavaScript, it allows users to view images in a grid layout, with tab functionality to cycle between the offerings, dynamically resizing based on display width. The gallery is designed to be visually appealing and user-friendly.",
+      "This project features a responsive image gallery that showcases a collection of images. Built with HTML, CSS, and JavaScript, it allows users to view images in a grid layout, with tab functionality to cycle between the offerings. The gallery is designed to be visually appealing and user-friendly.",
     image: "/thumbnails/imagegallery.png",
     github: "https://github.com/ScottGreenhalgh/week2-assignment",
     url: "https://scottgreenhalgh.github.io/week2-assignment/",

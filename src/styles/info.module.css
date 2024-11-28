@@ -1,0 +1,25 @@
+.info-pannel {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: auto;
+  padding: 10px;
+  text-align: left;
+  /* -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px; 
+  overflow: hidden; 
+  border: 1px solid none; 
+  box-sizing: border-box; */
+}
+
+.title-text {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .info-pannel {
+    width: 350px;
+  }
+}

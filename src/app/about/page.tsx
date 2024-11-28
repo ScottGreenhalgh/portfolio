@@ -1,20 +1,12 @@
-import AboutContent from "@/components/AboutContent";
+import Info from "@/components/Info";
+import Skills from "@/components/Skills";
 import style from "@/styles/about.module.css";
 
 export default function AboutPage() {
   return (
     <div className={style["about-container"]}>
-      <div className={style["info-pannel"]}>
-        <p>
-          I&#39;m a Junior Software Developer based in Norwich, England with a
-          passion for all things tech.
-        </p>
-        <p>
-          I graduated from the University of York in Electronic Engineering and
-          studied Web Development under Tech Educators.
-        </p>
-      </div>
-      <AboutContent />
+      <Info />
+      <Skills />
     </div>
   );
 }

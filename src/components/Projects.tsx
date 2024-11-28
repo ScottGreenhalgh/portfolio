@@ -37,6 +37,7 @@ const Projects: React.FC = async () => {
               <div className={style["project-title"]}>{project.title}</div>
             </div>
           </a>
+          <div className={style["project-popup"]}>{project.description}</div>
         </div>
       ))}
     </div>

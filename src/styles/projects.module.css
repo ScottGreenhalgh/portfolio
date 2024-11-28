@@ -1,3 +1,5 @@
+/* -------- Containers --------- */
+
 .projects-container {
   display: grid;
   grid-template-columns: repeat(
@@ -18,10 +20,33 @@
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
 
 .project-item:hover {
   transform: scale(1.05); /* Adjust in future */
+}
+
+/* -------- Popup for description -------- */
+
+.project-popup {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.project-item:hover .project-popup {
+  opacity: 1;
+  visibility: visible;
 }
 
 .project-info {
@@ -34,6 +59,8 @@
   border-radius: 5px;
   z-index: 2;
 }
+
+/* ---------- Thumbnail images ------- */
 
 .project-image-container {
   position: relative;
@@ -48,6 +75,8 @@
   border-bottom: 2px solid #ddd;
 }
 
+/* -------- Title Text --------- */
+
 .project-title {
   position: absolute;
   bottom: 10px;
@@ -60,7 +89,15 @@
   text-align: center;
   z-index: 2;
   width: 90%;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
 }
+
+.project-item:hover .project-title {
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* ----------- Links ---------- */
 
 .link {
   color: #0070f3;
