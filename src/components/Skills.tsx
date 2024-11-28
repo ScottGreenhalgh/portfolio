@@ -8,7 +8,9 @@ import { skillsData } from "@/utils/skillsData";
 const Skills: React.FC = () => {
   return (
     <div className={style["skills-container"]}>
-      <h2 className={`text-2xl text-amber-500 ${style["title-text"]}`}>
+      <h2
+        className={`text-2xl text-amber-500 font-bold ${style["title-text"]}`}
+      >
         <IoCog />
         Skills
       </h2>
@@ -44,6 +46,7 @@ const Skills: React.FC = () => {
                 alt={`${skill.name} logo`}
                 height={40}
                 width={40}
+                aria-label={`${Skills.name} logo`}
                 style={{
                   width: "40px",
                   height: "40px",

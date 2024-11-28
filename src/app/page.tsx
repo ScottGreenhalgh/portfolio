@@ -5,7 +5,7 @@ import { FaFolder } from "react-icons/fa";
 export default function Home() {
   return (
     <div className={style["home-container"]}>
-      <h3 className="text-2xl text-amber-500 flex justify-center items-center gap-1">
+      <h3 className="text-2xl font-bold text-amber-500 flex justify-center items-center gap-1">
         <FaFolder />
         Projects
       </h3>

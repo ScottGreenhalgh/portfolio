@@ -68,6 +68,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${noto.variable} ${roboto.variable} ${lato.variable} ${play.variable} ${Rubik.variable} ${Gasoek.variable} antialiased`}
+        aria-live="polite"
       >
         <Header />
         {children}

@@ -16,6 +16,7 @@
 .title-text {
   display: flex;
   align-items: center;
+  gap: 0.15rem;
 }
 
 @media (max-width: 767px) {

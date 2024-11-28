@@ -6,7 +6,6 @@ import { AiFillGithub } from "react-icons/ai";
 const Projects: React.FC = async () => {
   return (
     <div className={style["projects-container"]}>
-      {/* <h3 className="text-2xl text-amber-500">Projects</h3> */}
       {projectsData.map((project) => (
         <div key={project.id} className={style["project-item"]}>
           <div className={style["project-info"]}>
@@ -31,7 +30,8 @@ const Projects: React.FC = async () => {
                 alt={project.title}
                 width={500}
                 height={300}
-                className="project-image"
+                aria-label={project.title}
+                className={style["project-image"]}
                 style={{ width: "auto", height: "auto" }}
               />
               <div className={style["project-title"]}>{project.title}</div>

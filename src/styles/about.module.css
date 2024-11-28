@@ -11,6 +11,43 @@
   border-radius: 6px;
   max-height: 80%;
   overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--darker-color) transparent;
+}
+
+.projects-container::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.projects-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.projects-container::-webkit-scrollbar-thumb {
+  background-color: var(--darker-color);
+  border-radius: 4px;
+  border: none;
+}
+
+.projects-container::-webkit-scrollbar-thumb:hover {
+  background-color: var(--dark-color);
+}
+
+.projects-container::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+  display: none;
+}
+
+.profile-image {
+  border-radius: 50%;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 0.5rem;
 }
 
 @media (max-width: 767px) {

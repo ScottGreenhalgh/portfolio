@@ -12,21 +12,27 @@ const Header: React.FC = () => {
         <p>- Scott -</p>
         <p>Greenhalgh</p>
       </div>
-      <Link className={`${style["link"]} text-3xl`} href="/">
+      <Link className={`${style["link"]} text-3xl`} href="/" aria-label="Home">
         <IoHomeSharp />
       </Link>
-      <Link className={`${style["link"]} text-3xl`} href="/about">
+      <Link
+        className={`${style["link"]} text-3xl`}
+        href="/about"
+        aria-label="About"
+      >
         <FaInfoCircle />
       </Link>
       <a
         className={`${style["link"]} text-3xl`}
         href="https://github.com/ScottGreenhalgh"
+        aria-label="GitHub"
       >
         <AiFillGithub />
       </a>
       <a
         className={`${style["link"]} text-3xl`}
         href="https://www.linkedin.com/in/scott-greenhalgh-288575212/"
+        aria-label="LinkedIn"
       >
         <FaLinkedin />
       </a>

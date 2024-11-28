@@ -21,6 +21,7 @@
 .title-text {
   display: flex;
   align-items: center;
+  gap: 0.15rem;
 }
 
 .TextContainer {

@@ -6,6 +6,8 @@ Header Featuring:
 
 - About Page
 
+- Lino to GitHub Profile
+
 - Link to LinkedIn Profile
 
 Home page featuring:
@@ -14,8 +16,6 @@ Home page featuring:
 
 About page Featuring:
 
+- About Me
+
 - Skills
-
-- Achievements
-
-- Other notable projects

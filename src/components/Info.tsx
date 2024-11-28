@@ -4,7 +4,9 @@ import { GoInfo } from "react-icons/go";
 const Info: React.FC = () => {
   return (
     <div className={style["info-pannel"]}>
-      <h2 className={`text-2xl text-amber-500 ${style["title-text"]}`}>
+      <h2
+        className={`text-2xl text-amber-500 font-bold ${style["title-text"]}`}
+      >
         <GoInfo />
         About Me
       </h2>
