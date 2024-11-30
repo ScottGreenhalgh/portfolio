@@ -37,7 +37,15 @@ const Projects: React.FC = async () => {
               <div className={style["project-title"]}>{project.title}</div>
             </div>
           </a>
-          <div className={style["project-popup"]}>{project.description}</div>
+          <a
+            className={style["link"]}
+            href={project.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: "white", textDecoration: "none" }}
+          >
+            <div className={style["project-popup"]}>{project.description}</div>
+          </a>
         </div>
       ))}
     </div>

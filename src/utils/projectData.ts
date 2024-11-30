@@ -33,7 +33,7 @@ export const projectsData = [
       "A comments form themed to Shrek. The application is designed to take user submitted shrek quotes and who said them. Users can then like their favourites or delete them altogether.",
     image: "/thumbnails/guestbook.png",
     github: "https://github.com/ScottGreenhalgh/guestbook",
-    url: "https://scottgreenhalgh.github.io/week03-assignment/",
+    url: "https://guestbook-61m4.onrender.com/",
   },
   {
     id: 5,
