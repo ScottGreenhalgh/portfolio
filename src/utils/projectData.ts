@@ -17,24 +17,24 @@ export const projectsData = [
     github: "https://github.com/ScottGreenhalgh/week2-assignment",
     url: "https://scottgreenhalgh.github.io/week2-assignment/",
   },
-  {
-    id: 3,
-    title: "Budget Bakery 1.0",
-    description:
-      "A Cookie Clicker insipred idle game, which mimics the functionaity and layout of the original. Featuring an external API to fetch the upgrade data, user interactive elements, browser cookies and a darkmode toggle.",
-    image: "/thumbnails/budgetbakery1.png",
-    github: "https://github.com/ScottGreenhalgh/week03-assignment",
-    url: "https://scottgreenhalgh.github.io/week03-assignment/",
-  },
-  {
-    id: 4,
-    title: "Shrek Quotes",
-    description:
-      "A comments form themed to Shrek. The application is designed to take user submitted shrek quotes and who said them. Users can then like their favourites or delete them altogether.",
-    image: "/thumbnails/guestbook.png",
-    github: "https://github.com/ScottGreenhalgh/guestbook",
-    url: "https://guestbook-61m4.onrender.com/",
-  },
+  // {
+  //   id: 3,
+  //   title: "Budget Bakery 1.0",
+  //   description:
+  //     "A Cookie Clicker insipred idle game, which mimics the functionaity and layout of the original. Featuring an external API to fetch the upgrade data, user interactive elements, browser cookies and a darkmode toggle.",
+  //   image: "/thumbnails/budgetbakery1.png",
+  //   github: "https://github.com/ScottGreenhalgh/week03-assignment",
+  //   url: "https://scottgreenhalgh.github.io/week03-assignment/",
+  // },
+  // {
+  //   id: 4,
+  //   title: "Shrek Quotes",
+  //   description:
+  //     "A comments form themed to Shrek. The application is designed to take user submitted shrek quotes and who said them. Users can then like their favourites or delete them altogether.",
+  //   image: "/thumbnails/guestbook.png",
+  //   github: "https://github.com/ScottGreenhalgh/guestbook",
+  //   url: "https://guestbook-61m4.onrender.com/",
+  // },
   {
     id: 5,
     title: "Game Scout",
@@ -48,7 +48,7 @@ export const projectsData = [
     id: 6,
     title: "React Budget Bakery 1.1",
     description:
-      "A React refactor of a previously created project, Budget Bakery. Containing an identical compilation of features and design with an additonal sound toggle.",
+      "A React refactor of a previously created project, an idle clicker game inspired by cookie clicker. Containing an identical compilation of features and design with an additonal sound toggle.",
     image: "/thumbnails/reactbudgetbakery.png",
     github: "https://github.com/ScottGreenhalgh/week06-assignment",
     url: "https://budget-bakery.onrender.com/",
