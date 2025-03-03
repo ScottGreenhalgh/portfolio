@@ -9,7 +9,7 @@ const Skills: React.FC = () => {
   return (
     <div className={style["skills-container"]}>
       <h2
-        className={`text-2xl text-amber-500 font-bold ${style["title-text"]}`}
+        className={`text-2xl text-amber-300 font-bold ${style["title-text"]}`}
       >
         <IoCog />
         Skills

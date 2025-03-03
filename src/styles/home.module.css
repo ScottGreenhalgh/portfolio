@@ -1,8 +1,22 @@
 .home-container {
+  position: relative;
   background: var(--light-color);
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
   border-radius: 6px;
 
   padding: 0.5rem 0 0.5rem 0.5rem;
+}
+
+.home-back {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: x-large;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.home-back:hover {
+  transform: scale(1.05);
 }

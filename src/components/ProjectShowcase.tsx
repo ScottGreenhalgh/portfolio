@@ -1,12 +1,12 @@
 import Image from "next/image";
-import { projectsData } from "@/utils/projectData";
-import style from "@/styles/projects.module.css";
+import { hackathonData } from "@/utils/hackathonData";
+import style from "@/styles/showcase.module.css";
 import { AiFillGithub } from "react-icons/ai";
 
-const Projects: React.FC = async () => {
+const ProjectShowcase: React.FC = async () => {
   return (
     <div className={style["projects-container"]}>
-      {projectsData.slice().reverse().map((project) => (
+      {hackathonData.map((project) => (
         <div key={project.id} className={style["project-item"]}>
           <div className={style["project-info"]}>
             <a
@@ -52,4 +52,4 @@ const Projects: React.FC = async () => {
   );
 };
 
-export default Projects;
+export default ProjectShowcase;
